@@ -1,0 +1,135 @@
+[
+  {
+    "id": "exp-box-strategy",
+    "short": "Box",
+    "company": "Box, Inc.",
+    "role": "Sales Strategy Practicum Consultant",
+    "location": "San Jose, CA",
+    "period": "2026.03 – 2026.06",
+    "achievements": [
+      "Built a logistic-regression model to estimate 60-day conversion potential, guiding target-account prioritization and outreach recommendations.",
+      "Analyzed won/lost opportunities and outreach responses to identify account and message patterns linked to higher win likelihood."
+    ],
+    "metrics": [],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-nio-regional-analyst",
+    "short": "NIO",
+    "company": "NIO Inc. (Leading EV Brand in China)",
+    "role": "Regional Sales Operation Analyst",
+    "location": "Chengdu, China",
+    "period": "2024.06 – 2025.05",
+    "achievements": [
+      "Developed regional GTM and expansion plans across 3 provinces; built store-to-province KPI dashboards supporting the launch of 35 stores and pop-ups.",
+      "Flagged and recovered a 10% December pacing gap, generating 25 orders and restoring 100% month-end attainment."
+    ],
+    "metrics": [
+      "−80% storage costs",
+      "60 → 10 days dwell",
+      "35 stores & pop-ups"
+    ],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-nio-trainee",
+    "short": "NIO",
+    "company": "NIO Inc.",
+    "role": "Sales Management Trainee",
+    "location": "Shanghai, China",
+    "period": "2023.04 – 2024.06",
+    "achievements": [
+      "Improved lead-to-test-drive conversion from 23% to 38% in 2 months, moving a Shanghai store from Bottom 5 to Top 3 of ~30 stores.",
+      "Drove the nationwide rollout of NIOPhone's offline referral channel in 1.5 months; delivered ONVO market-entry planning from 30+ city research."
+    ],
+    "metrics": [
+      "23% → 38% L-TD",
+      "Top 3 of ~30 stores",
+      "~30% of sales by M3"
+    ],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-unilever-marketing",
+    "short": "Unilever",
+    "company": "Unilever PLC",
+    "role": "Marketing Intern",
+    "location": "Shanghai, China",
+    "period": "2022.05 – 2022.09",
+    "achievements": [
+      "Supported 2022 salon hair-care launches with market and competitor analysis, R&D concept briefs, and pricing and claims planning.",
+      "Sourced packaging suppliers and consolidated specs and samples into a structured comparison for final selection."
+    ],
+    "metrics": [],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-tiktok-strategy",
+    "short": "TikTok",
+    "company": "ByteDance Ltd. (TikTok)",
+    "role": "Global Strategic Operation Analyst Intern",
+    "location": "Beijing, China",
+    "period": "2021.11 – 2022.03",
+    "achievements": [
+      "Monitored competitors across Brazil, India, and Mexico and delivered weekly insights to the Global Strategy Team.",
+      "Decomposed TikTok's penetration and retention in Mexico to inform go-to-market and retention strategies for target segments."
+    ],
+    "metrics": [],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-meituan-groupbuying",
+    "short": "Meituan",
+    "company": "Meituan (Leading Local Services & Delivery Platform in China)",
+    "role": "Group Buying Business Analyst Intern",
+    "location": "Beijing, China",
+    "period": "2021.08 – 2021.10",
+    "achievements": [
+      "Ran weekly KPI reviews and anomaly deep-dives across store supply, online products, and order fulfillment, drilling down by region/city for Ops stakeholders.",
+      "Segmented group leaders with SQL + Excel and analyzed ODR impact on recommendations, retention, and earnings."
+    ],
+    "metrics": [],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-kwai-ecommerce",
+    "short": "Kwai",
+    "company": "Kuaishou Technology (Kwai)",
+    "role": "E-commerce Operation Analyst Intern",
+    "location": "Beijing, China",
+    "period": "2021.05 – 2021.08",
+    "achievements": [
+      "Raised a key feature's penetration rate from 9% to 28% within 3 weeks through SQL-driven weekly penetration analysis.",
+      "Analyzed a coupon-bundle strategy across merchant adoption, repeat purchase, and program ROI."
+    ],
+    "metrics": [
+      "9% → 28% in 3 weeks"
+    ],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "exp-didi-pmo",
+    "short": "Didi",
+    "company": "Didi (Leading Mobility & Ride-hailing Platform in China)",
+    "role": "Project Management Intern",
+    "location": "Chengdu, China",
+    "period": "2021.01 – 2021.04",
+    "achievements": [
+      "Served as central PMO owner for the first ~50-city rollout of a shared-bike advertising program spanning ~180 cities.",
+      "Standardized six communication workflows into process maps and SOP documentation adopted by Platform Operations."
+    ],
+    "metrics": [
+      "~180 cities",
+      "6 workflows"
+    ],
+    "createdAt": "2026-11-17T00:00:00.000Z",
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  }
+]

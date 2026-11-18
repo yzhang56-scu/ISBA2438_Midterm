@@ -1,0 +1,227 @@
+[
+  {
+    "id": "1794988945472-0i42qg",
+    "section": 1,
+    "type": "overview",
+    "title": "Midterm Test Project",
+    "description": "Testing the Projects CRUD feature",
+    "tags": [
+      "Next.js、API"
+    ],
+    "createdAt": "2026-11-18T08:02:25.472Z",
+    "updatedAt": "2026-11-18T08:02:25.472Z",
+    "github": "None"
+  },
+  {
+    "section": 1,
+    "type": "case-study",
+    "slug": "used-car-market-analysis",
+    "title": "Used Car Market Analysis",
+    "github": "https://github.com/yzhang56-scu/used-car-valuation",
+    "description": "Explainable ML benchmark for UK used-car listing prices (DVM-CAR, 2012–2021): compared four model families, tuned XGBoost to a £1,037 test MAE, and explained price drivers with SHAP.",
+    "tags": [
+      "Machine Learning",
+      "XGBoost",
+      "SHAP Explainability"
+    ],
+    "details": [
+      {
+        "heading": "Project Overview",
+        "body": "Explainable machine-learning analysis of the UK used-car market, built on the DVM-CAR dataset of 268,255 advertisements from 2012–2021. The project benchmarks historical listing prices from observable vehicle characteristics, compares four model families, and explains what drives the estimated prices — published as a reproducible Python project on GitHub.",
+        "metrics": [
+          "268,255 ads analysed",
+          "223,104 core records",
+          "21 model predictors",
+          "4 model families compared"
+        ]
+      },
+      {
+        "heading": "Business Problem",
+        "body": "Consumers often receive vehicle valuations without understanding the factors behind them, and automotive salespeople need to give customers an evidence-based price expectation before a formal trade-in appraisal is available.",
+        "points": [
+          "Goal: an explainable model that estimates used-car listing prices from observable vehicle characteristics and identifies the primary drivers behind those estimates.",
+          "Scope boundary kept explicit: the data observe advertised asking prices only — not transaction prices — and exclude condition, accident history, location, and seller type."
+        ]
+      },
+      {
+        "heading": "Approach & Analysis",
+        "body": "Built an end-to-end, reproducible Python workflow (prepare_dataset.py, train_models.py, tune_xgboost.py, analyze_saved_model.py): cleaned and joined the DVM-CAR tables into a 223,104-record core dataset covering 60 makes and 581 models, then engineered 21 predictors including vehicle age, log mileage, and the model-year entry-level new-car price.",
+        "points": [
+          "Leakage-safe preprocessing: missing prices recovered only from the same Adv_ID; train-fitted median imputation applied after the split; stratified random 80/10/10 train/validation/test split.",
+          "Compared Ridge, Random Forest, CatBoost, and XGBoost; tuned four XGBoost configurations on validation data only, then refit the selected deep_regularized configuration (1,200 trees, depth 10, learning rate 0.04) on 90% of the data.",
+          "Explained predictions with grouped SHAP attribution globally and within Entry, Mainstream, Premium, and Luxury segments, plus standardized 3-year and 5-year residual-value scenarios."
+        ]
+      },
+      {
+        "heading": "Key Findings & Results",
+        "body": "The tuned XGBoost benchmark reached a £1,037 test MAE — about 65 of 100 estimates within 10% and 80 within 15% of the observed listing price — with age, original new-car price, and mileage as the dominant drivers.",
+        "metrics": [
+          "£1,037 test MAE",
+          "79.9% within ±15%",
+          "64.9% within ±10%",
+          "0.9737 test log R²"
+        ],
+        "points": [
+          "Top price drivers (mean |SHAP| on log price): vehicle age (0.4169), entry-level new-car price (0.3646), mileage (0.1769), and engine power (0.0790).",
+          "Driver rankings shift by segment: vehicle age leads in the Mainstream segment (0.4134), while entry-level new-car price dominates Luxury (1.2021).",
+          "Standardized residual-value scenarios highlight strong historical retention for Ferrari (98.5% at 3 years), Dacia, Lamborghini, Porsche, and Land Rover, led by models such as the Ferrari 488 and Porsche 718 Boxster."
+        ]
+      },
+      {
+        "heading": "Business Recommendations",
+        "body": "Positioned as a starting point for pricing conversations — not a replacement for inspection or professional appraisal.",
+        "points": [
+          "Consumers: use the benchmark as an initial historical price reference and review age, mileage, original entry-level price, and condition before buying.",
+          "Salespeople: explain Mainstream vehicles mainly through age and mileage; for Premium and Luxury vehicles, also emphasize original price and specification.",
+          "Resale-focused buyers: use the 3-year and 5-year residual-value rankings to shortlist vehicles.",
+          "Model users: route rare, unseen, or incompletely specified vehicles to human review rather than issuing automated quotes."
+        ]
+      }
+    ],
+    "id": "proj-used-car-market"
+  },
+  {
+    "section": 1,
+    "type": "overview",
+    "title": "TikTok International Market Analysis",
+    "description": "Benchmarked TikTok's penetration, growth, and retention across Brazil, India, and Mexico to inform market decisions.",
+    "tags": [
+      "Market Analysis",
+      "Competitive Research",
+      "Data Analysis"
+    ],
+    "id": "proj-tiktok-market"
+  },
+  {
+    "section": 2,
+    "type": "overview",
+    "title": "ONVO Regional GTM & Store Expansion",
+    "description": "Regional GTM and expansion planning across 3 provinces, supporting the launch of 35 stores and pop-ups.",
+    "tags": [
+      "GTM Strategy",
+      "Market Research",
+      "Data Analysis"
+    ],
+    "id": "proj-onvo-gtm"
+  },
+  {
+    "section": 2,
+    "type": "overview",
+    "title": "NIOPhone Offline Channel Launch",
+    "description": "End-to-end rollout of NIOPhone's offline referral channel nationwide within 1.5 months, coordinating marketing, training, operations, and IT.",
+    "tags": [
+      "Channel Strategy",
+      "Sales Enablement",
+      "Cross-functional Coordination"
+    ],
+    "id": "proj-niophone-launch"
+  },
+  {
+    "section": 2,
+    "type": "overview",
+    "title": "Unilever New Product Launch",
+    "description": "Supported salon hair-care product launches through market and competitor analysis, concept briefs, and pricing and claims planning.",
+    "tags": [
+      "Product Launch",
+      "Market Analysis",
+      "Pricing"
+    ],
+    "id": "proj-unilever-launch"
+  },
+  {
+    "section": 3,
+    "type": "overview",
+    "title": "Inventory Turnaround Optimization",
+    "description": "Cut average vehicle dwell time from 60 to 10 days and reduced storage costs by 80% through process optimization and resource management.",
+    "tags": [
+      "Sales Operations",
+      "Process Optimization",
+      "Resource Management"
+    ],
+    "id": "proj-inventory-turnaround"
+  },
+  {
+    "section": 3,
+    "type": "overview",
+    "title": "Box Sales Conversion Analysis",
+    "description": "Logistic-regression modeling on outreach and account data to estimate 60-day conversion potential and prioritize target accounts.",
+    "tags": [
+      "Logistic Regression",
+      "Python",
+      "Sales Analytics"
+    ],
+    "id": "proj-box-conversion"
+  },
+  {
+    "section": 3,
+    "type": "case-study",
+    "slug": "x5-retailhero-machine-learning",
+    "title": "X5 RetailHero Machine Learning",
+    "github": "https://github.com/yzhang56-scu/x5-retailhero-ml",
+    "description": "Uplift-modeling case study on X5 RetailHero data: a capacity-aware messaging strategy comparing propensity, uplift, and value-weighted targeting across outreach capacities.",
+    "tags": [
+      "Uplift Modeling",
+      "XGBoost",
+      "Marketing Analytics"
+    ],
+    "details": [
+      {
+        "heading": "Project Overview",
+        "body": "Uplift-modeling case study on the X5 RetailHero competition data, reframed as a customer-operations and sales-strategy problem: not only who is likely to purchase, but how a marketing-operations team should allocate limited outreach capacity across customers with different expected response and historical value. Built on 200,039 labeled customers and roughly 45.8 million product-line purchase records, published as a reproducible Python project on GitHub.",
+        "metrics": [
+          "200,039 labeled customers",
+          "45.8M purchase records",
+          "3 targeting strategies",
+          "5%–100% capacity sweep"
+        ]
+      },
+      {
+        "heading": "Business Problem",
+        "body": "Given customer profiles, pre-campaign transaction history, and campaign response data, how should an operations team allocate limited marketing-outreach resources among customers with different expected response and historical value?",
+        "points": [
+          "Distinguishes three related ideas: gross observed-purchase propensity (who may buy), estimated incremental response (who responds to messaging), and historical-value-weighted uplift (who is also commercially valuable).",
+          "Audience: CRM and membership teams, marketing and sales operations teams allocating low-cost scalable vs. high-cost personalized channels, and decision-makers needing a roadmap from response modeling to GMV and ROI.",
+          "The observed outcome is a binary post-campaign purchase flag; the value proxy is pre-campaign spend, since post-campaign revenue, margin, and campaign costs are unavailable in the data."
+        ]
+      },
+      {
+        "heading": "Approach & Analysis",
+        "body": "Built a reproducible Python workflow (data audit, feature engineering, modeling, tuning, strategy analysis) on an 80/10/10 train/validation/final-test split of the 200,039 labeled customers, jointly stratified by treatment and outcome. Model selection used validation customers only, with a single final evaluation on the untouched 20,004-customer final-test set.",
+        "points": [
+          "Engineered 17 pre-campaign features from ~117 days of purchase history — spend, frequency, basket value, recency, cadence, consistency, product and category breadth, tenure — de-duplicating receipts at client + transaction grain.",
+          "RQ1: compared three XGBoost-based propensity configurations, then ran a pre-specified 24-configuration validation-only tuning search.",
+          "RQ2: a T-Learner (one XGBoost model per treatment/control group) estimates incremental response as p_treat − p_control, selected on validation AUUC.",
+          "RQ3: compared propensity, uplift-only, and value × uplift ranking rules at equal outreach capacity from 5% to 100%, plus a four-quadrant value/uplift segmentation."
+        ]
+      },
+      {
+        "heading": "Key Findings & Results",
+        "body": "The tuned propensity model reached 0.7787 ROC-AUC on the final test, while the T-Learner identified customer segments with far larger incremental response than the population average — and showed that the highest-propensity customers are not automatically the best messaging targets.",
+        "metrics": [
+          "0.7787 propensity ROC-AUC",
+          "9.27pp uplift in top 10%",
+          "190.73 uplift AUUC",
+          "24.32 Qini coefficient"
+        ],
+        "points": [
+          "Top 10% by uplift rank showed a 9.27 percentage-point observed incremental purchase rate (55.22% treated vs. 45.95% control), vs. 3.33pp across the full final-test population.",
+          "At the same top-10% capacity, gross propensity showed no positive incremental effect (−1.25pp), uplift-only delivered 9.27pp, and value-weighted uplift traded response (5.75pp) to target customers with ~2.75× higher mean historical value.",
+          "High-propensity customers are frequent, recently active, established shoppers; high-uplift customers have comparatively lower spend and frequency — the two rankings are materially different.",
+          "Up to ~30% outreach capacity, uplift-only is the preferred rule; above 40% capacity, no single ranking rule consistently dominates.",
+          "Four-quadrant segmentation: Strategic Priority 20.3%, Growth Opportunity 29.8%, Organic High-Value 30.2%, and Low Priority 19.7% of the final-test population."
+        ]
+      },
+      {
+        "heading": "Business Recommendations",
+        "body": "The deliverable is a capacity-aware targeting roadmap rather than a single contact list: define the campaign KPI, channel cost, and outreach capacity first, then choose the ranking rule and channel.",
+        "points": [
+          "For low-cost scalable channels with capacity up to ~30%: rank customers by predicted uplift to maximize additional purchasers per contact.",
+          "For high-cost, scarce, or personalized channels: prioritize the Strategic Priority quadrant (high historical value + high uplift), and avoid unnecessary subsidies for high-propensity, low-uplift customers.",
+          "Suppress or deprioritize the Low Priority quadrant (19.7% of the test population) from promotional messaging, or move it to very low-cost channels.",
+          "Roadmap to profit-based messaging: retain comparable control groups and collect campaign-window GMV, margin, incentive, and channel-cost data to move from purchase response to expected incremental profit."
+        ]
+      }
+    ],
+    "id": "proj-x5-retailhero"
+  }
+]

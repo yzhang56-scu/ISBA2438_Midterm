@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1794427139293-isy2zg",
+    "slug": "testing-blog-1",
+    "title": "Testing Blog 1",
+    "content": "This is my first test blog post.",
+    "createdAt": "2026-11-11T19:58:59.293Z"
+  },
+  {
+    "id": "1794427154855-45takz",
+    "slug": "testing-blog-2",
+    "title": "Testing Blog 2",
+    "content": "This is my second test blog post.",
+    "createdAt": "2026-11-11T19:59:14.855Z"
+  },
+  {
+    "id": "1794427911942-5ku9di",
+    "slug": "testing-blog-3",
+    "title": "Testing Blog 3",
+    "content": "This is my third testing blog.",
+    "createdAt": "2026-11-11T20:11:51.942Z"
+  },
+  {
+    "id": "1794436539275-92f8dp",
+    "slug": "testing-blog-4",
+    "title": "Testing Blog 4",
+    "content": "This is my testing blog 4.",
+    "createdAt": "2026-11-11T22:35:39.275Z"
+  },
+  {
+    "id": "1794436636036-72vng8",
+    "slug": "blog-api-flow-demo",
+    "title": "Blog API Flow demo",
+    "content": "Demonstration use",
+    "createdAt": "2026-11-11T22:37:16.036Z"
+  }
+]
