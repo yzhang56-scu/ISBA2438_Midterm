@@ -1,4 +1,4 @@
-﻿import { redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import { isAuthed } from "@/lib/auth";
 import ExperienceManager from "@/components/ExperienceManager";
 import LogoutButton from "@/components/LogoutButton";
@@ -26,7 +26,7 @@ export default async function ExperienceAdmin() {
         <h1>Experience Manager</h1>
         <p className="bio">
           Manage the work experience entries shown on your About Me page. Add,
-          edit, or remove roles 鈥?changes are saved to the backend and appear
+          edit, or remove roles — changes are saved to the backend and appear
           on the site right away.
         </p>
       </div>

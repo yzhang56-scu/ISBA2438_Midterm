@@ -1,4 +1,4 @@
-﻿import { redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import { isAuthed } from "@/lib/auth";
 import JobTracker from "@/components/JobTracker";
 import LogoutButton from "@/components/LogoutButton";
@@ -25,7 +25,7 @@ export default async function JobTrackerPage() {
         <p className="sec-eyebrow">Career</p>
         <h1>Job Application Tracker</h1>
         <p className="bio">
-          Keep track of every role you pursue 鈥?from wishlist to offer. Add,
+          Keep track of every role you pursue — from wishlist to offer. Add,
           edit, and remove applications below. Everything is saved privately in
           your browser with LocalStorage, so your list is here when you come
           back.

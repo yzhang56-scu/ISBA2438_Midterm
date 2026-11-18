@@ -1,4 +1,4 @@
-﻿import { redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import { isAuthed } from "@/lib/auth";
 import MessageManager from "@/components/MessageManager";
 import LogoutButton from "@/components/LogoutButton";
@@ -26,7 +26,8 @@ export default async function MessagesAdmin() {
         <h1>Message Manager</h1>
         <p className="bio">
           Review the messages sent through your contact forms. Track each one
-          as New or Replied, update the details, or remove old entries 鈥?          everything is saved to the backend.
+          as New or Replied, update the details, or remove old entries —
+          everything is saved to the backend.
         </p>
       </div>
       <MessageManager />
